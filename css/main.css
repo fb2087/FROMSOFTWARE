@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@media(min-width:1200px){
+.slide{width: 100%; height: auto; margin: 0 auto; position: relative; display: flex; 
+justify-content: center; flex-direction: column; align-items: center;}
+.slide video{width: 100%; height: 100%;}
+.slide #btn div h1{color: white; text-align: center;font-size: 50px;}
+.slide #btn{width: 500px; height: 500px; flex-wrap: wrap;
+display: flex; align-content: center;  justify-content:  space-evenly;
+position: absolute;  z-index: 3; margin: 0 auto;}
+.slide #btn a{width: 100%;}
+.slide #btn button{font-size: 20px; cursor: pointer; font-weight: bold;}
+.slide #btn #btn1{width: 150px; height: 50px; background-color: rgb(46, 85, 155); 
+color: white; border: 0;}
+.slide #btn #btn2{width: 150px; height: 50px; background-color: black; color: white;
+border: 1px solid white;}
+.slide #btn #btn1:hover{background-color: black;}
+.slide #btn #btn2:hover{background-color: rgb(46, 85, 155); border: 0;}
+
+#cars{width: 100%; height: 250px; display: flex; margin-top: -4px;}
+#cars div img{width: 200px; height: 120px; }
+#cars .cars1{width: 25%; height: 250px; background-color: rgb(46, 85, 155); 
+display: flex; flex-wrap: wrap; align-content: center; font-size: 30px;
+font-weight: bold;}
+#cars .cars1 a{width: 100%;display: flex; justify-content: center; flex-wrap: wrap;}
+#cars .cars1:nth-of-type(even){background-color: rgb(255, 245, 242)}
+
+#section1 {width: 100%; height: 600px; display: flex;}
+#section1 .io{width: 50%; height: auto; position: relative;}
+#section1 .io img{max-width: 100%; max-height: 100%; transform: translate(-50% , -50%);
+position: absolute; left: 50%; top: 50%;}
+#section1 .txt{width: 50%; margin-top: 40px; display: flex; flex-direction: column; align-items: center;}
+#section1 .txt .txt1{margin-top: 50px;}
+#section1 .txt h1{text-align: center;}
+#section1 .txt button{width: 150px; height: 50px; float: left; cursor: pointer; border: 0;
+background-color: rgb(46, 85, 155); color: white; font-size: 20px; margin-top: 30px;}
+#section1 .txt button:hover{background-color: black;}
+#section1 .txt .txt1 span{width: 100%;}
+
+#etc{width: 100%; height: auto; margin: 0 auto;}
+#etc .etc1{width: 1200px; height: auto; }
+#etc .etc1 .lineup{ width:1200px; height: auto; display: flex; justify-content: space-evenly; 
+ flex-wrap: wrap;  margin: 0;}
+#etc .etc1  h1{font-size: 50px; text-align: center;}
+#etc .etc1 .lineup img{width: 580px; height: 350px;}
+#etc .etc1 .lineup div{width: 580px; height: 650px;}
+#etc .etc1 .lineup div .info{width: 400px; height: 100px;}
+#etc .etc1 .lineup div hr{width: 50px; border: 3px solid rgb(46, 85, 155); border-radius: 20px;}
+
+.more{width: 100%; height: auto; margin: 0 auto;}
+.more .mbox{width: 1200px; height: 400px; display: flex; justify-content: space-around;
+flex-wrap: wrap;}
+.more .mbox .box{width: 380px; height: 400px; text-align: center;}
+.more img{width: 100%; height: 250px;}
+
+.slide2{width: 100%; height: auto; margin: 0 auto; margin-bottom: -4px;}
+.slide2 img {width: 100%; height: 900px;}
+
+
+}
