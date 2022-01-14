@@ -7,4 +7,14 @@ justify-content: center; min-height: 810px; overflow-y: hidden; background-color
 
 .mainbox ul{ display: flex; position: relative; align-items: center;justify-content: center;
 width: 100%; height: 100vh; min-height: 810px; overflow-y: hidden;}
-.mainbox ul li{width: 20%;}
+.mainimg{display: flex; z-index: 0; position: absolute; align-items: center;
+justify-content: center; width: calc( ( 100vw * 1.2 ) / 5); height: 100%; overflow: hidden;
+transform: skewX(-20deg); transition: width .8s, left .8s;}
+.img{    position: absolute; z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    content: "";
+    transition: opacity .8s;}
