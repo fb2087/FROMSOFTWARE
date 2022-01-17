@@ -3,18 +3,57 @@
 
 
 .mainbox{width: 100%; height: 100vh; position: relative; display: flex; align-items: center; 
-justify-content: center; min-height: 810px; overflow-y: hidden; background-color: #000;}
+justify-content: center; min-height: 810px; overflow-x: hidden; overflow-y: hidden; background-color: #000;}
 
 .mainbox ul{ display: flex; position: relative; align-items: center;justify-content: center;
-width: 100%; height: 100vh; min-height: 810px; overflow-y: hidden;}
-.mainimg{display: flex; z-index: 0; position: absolute; align-items: center;
+width: 100%; height: 100vh; min-height: 810px; overflow: hidden;}
+.mainimg{display: flex; align-items: center;
 justify-content: center; width: calc( ( 100vw * 1.2 ) / 5); height: 100%; overflow: hidden;
-transform: skewX(-20deg); transition: width .8s, left .8s;}
-.img{    position: absolute; z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    content: "";
-    transition: opacity .8s;}
+transform: skewX(-20deg); transition: all 0.5s ease-in-out; }
+.img{ position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 100%;
+transition: opacity 0.8s;}
+
+.mainimg:nth-child(1) .img{width: 60vw; background: url(../img/darksoul/darksoul_b.jpg) 
+no-repeat center/cover; transform: skewX(20deg) translateX(-350px);transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(1){width: 30%; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(1):hover{width: 40%; }
+.mainimg:nth-child(1):hover .img{width: 70vw; background: url(../img/darksoul/darksoul_a.jpg) 
+no-repeat center/cover; transition: all 0.5s ease-in-out ;}
+@keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
+.mainimg:nth-child(1):hover .dsl{display: block; transform: ;  transition: all 0.5s ease-in-out ;}
+.dsl{display: none;  position: absolute; z-index: 1; left: 20%; top: 40%;
+width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s fadeout 1s;}
+
+    
+
+.mainimg:nth-child(2) .img{width: 60vw; background: url(../img/bloodborne/bloodborne_b.jpg) 
+no-repeat center/cover; transform: skewX(20deg) translateX(-400px);transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(2){width: 30%; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(2):hover{width: 40%; }
+.mainimg:nth-child(2):hover .img{width: 70vw; background: url(../img/bloodborne/bloodborne_a.jpg) 
+    no-repeat center/cover; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(2):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
+
+.mainimg:nth-child(3) .img{width: 60vw; background: url(../img/eldenring/eldenring_b.jpg) 
+no-repeat center/cover; transform: skewX(20deg) translateX(-400px);transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(3){width: 30%; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(3):hover{width: 40%;}
+.mainimg:nth-child(3):hover .img{width: 70vw; background: url(../img/eldenring/eldenring_a.jpg) 
+    no-repeat center/cover; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(3):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
+
+.mainimg:nth-child(4) .img{width: 100vw; background: url(../img/sekiro/sekiro_b.jpg) 
+no-repeat center/cover; transform: skewX(20deg) translateX(-700px);transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(4){width: 30%; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(4):hover{width: 40%;}
+.mainimg:nth-child(4):hover .img{width: 70vw; background: url(../img/sekiro/sekiro_a.jpg) 
+    no-repeat center/cover; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(4):hover .img{width: 100vw; background-position: center;transition: all 0.5s ease-in-out ;}
+
+.mainimg:nth-child(5) .img{width: 60vw; background: url(../img/deracine/deracine_b.jpg) 
+no-repeat center/cover; transform: skewX(20deg) translateX(-350px);transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(5){width: 30%; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(5):hover{width: 40%;}
+.mainimg:nth-child(5):hover .img{width: 70vw; background: url(../img/deracine/deracine_a.jpg) 
+    no-repeat center/cover; transition: all 0.5s ease-in-out ;}
+.mainimg:nth-child(5):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
