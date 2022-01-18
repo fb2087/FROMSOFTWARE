@@ -1,3 +1,30 @@
 $(function(){
-    $('.mainimg:nth-child(1)').hide();
+    $('.ds').hide();
+    $('.blood').hide();
+    $('.elden').hide();
+    $('.seki').hide();
+    $('.dera').hide();
+
+    $('.mainimg:nth-of-type(1)').click(function(){
+        $('.ds').fadeIn();
+    });
+    $('.mainimg:nth-of-type(2)').click(function(){
+        $('.blood').fadeIn();
+    });
+    $('.mainimg:nth-of-type(3)').click(function(){
+        $('.elden').fadeIn();
+    });
+    $('.mainimg:nth-of-type(4)').click(function(){
+        $('.seki').fadeIn();
+    });
+    $('.mainimg:nth-of-type(5)').click(function(){
+        $('.dera').fadeIn();
+    });
+    $('.cbtn').click(function(){
+        $('.ds').fadeOut();
+        $('.blood').fadeOut();
+        $('.elden').fadeOut();
+        $('.seki').fadeOut();
+        $('.dera').fadeOut();
+    });
 });
