@@ -82,8 +82,13 @@
         <div class="btn">
             <img class="cbtn" src="img/close.png" alt="">
         </div>
+
         <div class="dssli">
-            <img src="img/darksoul/darksoulsli_a.jpg" alt="">
+            <div><img src="img/darksoul/darksoulsli_a.jpg" alt=""></div>
+            <div><img src="img/darksoul/darksoulsli_b.jpg" alt=""></div>
+            <div><img src="img/darksoul/darksoulsli_c.jpg" alt=""></div>
+            
+            
         </div>
     </div>
 
@@ -109,7 +114,7 @@
         <div class="btn">
             <img class="cbtn" src="img/close.png" alt="">
         </div>
-        <div class="dssli">
+        <div class="sekisli">
             <img src="img/sekiro/sekiro_c.jpg" alt="">
         </div>
     </div>
@@ -118,12 +123,25 @@
         <div class="btn">
             <img class="cbtn" src="img/close.png" alt="">
         </div>
-        <div class="dssli">
+        <div class="derasli">
             <img src="img/deracine/deracine_off.jpg" alt="">
         </div>
     </div>
 
 
 </body>
+    <script>
+        var i = 0;
+        function slide() {
+            i++;
+            if (i > $('.dssli div:last').index()) {
+                i = 0;
+            }
+            $('.dssli div').eq(i).stop().fadeIn('slow');
+            $('.dssli div').eq(i - 1).stop().fadeOut('slow');
+        }
+        setInterval(slide, 3000);
+
+    </script>
     <script src="js/main.js"></script>
 </html>
