@@ -137,10 +137,10 @@
             if (i > $('.dssli div:last').index()) {
                 i = 0;
             }
-            $('.dssli div').eq(i).stop().fadeIn('slow');
-            $('.dssli div').eq(i - 1).stop().fadeOut('slow');
+            $('.dssli div').eq(i).fadeIn(1000);
+            $('.dssli div').eq(i - 1).fadeOut(500);
         }
-        setInterval(slide, 3000);
+        setInterval(slide, 4000);
 
     </script>
     <script src="js/main.js"></script>
