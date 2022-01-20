@@ -28,3 +28,24 @@ $(function(){
         $('.dera').fadeOut();
     });
 });
+
+$(function(){
+    $('.video').hide();
+    $('.elvi').click(function () {
+            $('.video').fadeIn();
+            $('.video iframe').attr("src","https://www.youtube.com/embed/l6pCyV7PnqI?autoplay=1&amp;mute=1");
+        });
+        $('.video').click(function () {
+            $('.video').fadeOut(); 
+        });
+});
+$(function(){
+    $('.video1').hide();
+    $('.sevi').click(function () {
+            $('.video1').fadeIn();
+            $('.video1 iframe').attr("src","https://www.youtube.com/embed/QFhaL4s10Iw?autoplay=1&amp;mute=1");
+        });
+        $('.video1').click(function () {
+            $('.video1').fadeOut(); 
+        });
+});
