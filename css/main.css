@@ -151,7 +151,7 @@ top: 0; left: 0; z-index: 6; }
 .seki .setxt .sebtn a:hover{opacity: 0.8;} 
 
 .dera{width: 100%; height: 100vh; min-height: 810px; position: absolute; top: 0; left: 0; overflow: hidden;}
-.dera .derasli img{width: 100%; height: 100vh; min-height: 810px;}
+.dera .derasli img{width: 100%; height: 100vh; min-height: 810px; position: absolute; top: 0; left: 0;}
 .dera .decon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
 .dera .detxt{width:550px; height: 500px; position: absolute; z-index:5; 
