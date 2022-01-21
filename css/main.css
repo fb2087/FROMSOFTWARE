@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @media(min-width:1200px){}
 
-.mainbox{width: 100%; height: 100vh; position: relative; display: flex; align-items: center; 
+body {width:100%; overflow:hidden; }
+.mainbox{width: 108%; height: 100vh; position: relative; display: flex; align-items: center; 
 justify-content: center; min-height: 810px; overflow-x: hidden; overflow-y: hidden; background-color: #000;}
 
 .mainbox ul{ display: flex; position: relative; align-items: center;justify-content: center;
@@ -70,7 +71,7 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-350px);transition: a
 .mainimg:nth-child(5):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .mainimg:nth-child(5):hover .dcl{display: block;   transition: all 0.5s ease-in-out ;}
-.dcl{display: none;  position: absolute; z-index: 1; left: 20%; top: 40%;
+.dcl{display: none;  position: absolute; z-index: 1; left: 10%; top: 40%;
 width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s;}
 
 
