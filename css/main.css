@@ -21,9 +21,9 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-350px);transition: a
 no-repeat center/cover; transition: all 0.5s ease-in-out ;}
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .mainimg:nth-child(1):hover .dsl{display: block;   transition: all 0.5s ease-in-out ;}
-.dsl{display: none;  position: absolute; z-index: 1; left: 20%; top: 40%;
-width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s;}
-
+.dsl{display: none;  position: absolute; z-index: 1; left: 50%; top: 50%;
+width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animation: fadein 1s;}
+ 
     
 
 .mainimg:nth-child(2) .img{width: 60vw; background: url(../img/bloodborne/bloodborne_b.jpg) 
@@ -35,8 +35,8 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-400px);transition: a
 .mainimg:nth-child(2):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .mainimg:nth-child(2):hover .bbl{display: block;   transition: all 0.5s ease-in-out ;}
-.bbl{display: none;  position: absolute; z-index: 1; left: 20%; top: 40%;
-width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s;}
+.bbl{display: none;  position: absolute; z-index: 1; left: 50%; top: 50%;
+width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animation: fadein 1s;}
 
 .mainimg:nth-child(3) .img{width: 60vw; background: url(../img/eldenring/eldenring_b.jpg) 
 no-repeat center/cover; transform: skewX(20deg) translateX(-430px);transition: all 0.5s ease-in-out ;}
@@ -47,8 +47,8 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-430px);transition: a
 .mainimg:nth-child(3):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .mainimg:nth-child(3):hover .erl{display: block;   transition: all 0.5s ease-in-out ;}
-.erl{display: none;  position: absolute; z-index: 1; left: 20%; top: 40%;
-width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s;}
+.erl{display: none;  position: absolute; z-index: 1; left: 50%; top: 50%;
+width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animation: fadein 1s;}
 
 .mainimg:nth-child(4) .img{width: 100vw; background: url(../img/sekiro/sekiro_b.jpg) 
 no-repeat center/cover; transform: skewX(20deg) translateX(-700px);transition: all 0.5s ease-in-out ; display: block;}
@@ -59,8 +59,8 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-700px);transition: a
 .mainimg:nth-child(4):hover .img{width: 100vw; background-position: center;transition: all 0.5s ease-in-out ;}
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .mainimg:nth-child(4):hover .srl{display: block;   transition: all 0.5s ease-in-out ;}
-.srl{display: none;  position: absolute; z-index: 1; left: 20%; top: 40%;
-width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s;}
+.srl{display: none;  position: absolute; z-index: 1; left: 50%; top: 50%;
+width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animation: fadein 1s;}
 
 .mainimg:nth-child(5) .img{width: 60vw; background: url(../img/deracine/deracine_b.jpg) 
 no-repeat center/cover; transform: skewX(20deg) translateX(-350px);transition: all 0.5s ease-in-out ;}
@@ -71,8 +71,8 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-350px);transition: a
 .mainimg:nth-child(5):hover .img{width: 70vw; background-position: center; transition: all 0.5s ease-in-out ;}
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .mainimg:nth-child(5):hover .dcl{display: block;   transition: all 0.5s ease-in-out ;}
-.dcl{display: none;  position: absolute; z-index: 1; left: 10%; top: 40%;
-width: 300px; height: 200px; transform: skew(20deg); animation: fadein 1s;}
+.dcl{display: none;  position: absolute; z-index: 1; left: 50%; top: 50%;
+width: 300px; height: 200px; transform: skew(20deg) translate(-60%,-50%); animation: fadein 1s;}
 
 
 .ds{width: 100%; height: 100vh; min-height: 810px; position: absolute; top: 0; left: 0;
