@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media(min-width:1200px){
+@media(min-width:600px) and (max-width:1199px){
 
 body {width:100%; overflow:hidden; }
 .mainbox{width: 108%; height: 100vh; position: relative; display: flex; align-items: center; 
