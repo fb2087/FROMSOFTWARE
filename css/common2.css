@@ -4,18 +4,24 @@
 ul,li,ol{list-style: none;}
 a{text-decoration: none; color: black;}
 
-header{width: 100%; height: 500px; display: flex; z-index: 5;justify-content: space-around; 
+header{width: 100%; height: auto; display: flex; z-index: 5;justify-content: space-around; 
 align-items: center; margin:0 auto; position: absolute; background-color: #000000;
 flex-direction: column; opacity: 0.6; position: fixed;}
-.logom{width: 100%; height: 100px; display: flex; justify-content: space-around;
+.logom{width: 100%; height: 150px; display: flex; justify-content: space-around;
 align-items: center;}
 header .logoa{width: auto; height: auto;}
 header img{color: white; width: 280px; height: 24px;}
-header nav{width: 100%; height: 500px;}
+header nav{width: 100%; height: 500px; display: flex; flex-direction: column; 
+justify-content: center; display: none;}
 header nav ul{height: 300px; font-size: 18px; font-weight:530; 
-display: flex; justify-content: space-around; align-items: center; flex-direction: column;}
-header nav ul li a{color: white;}
+display: flex; justify-content: space-around; align-items: center; 
+flex-direction: column;}
+header nav ul li a{color: white; width: 100%; height: 100%;}
 header nav ul li a:hover{opacity: 0.7;}
+.other{width: 100%; height:200px; display: flex; flex-direction: column; justify-content: center;}
+.other li{width: 60%; height: 35px; margin: 20px 0; text-align: center;
+border: 2px solid white;}
+.other li a{width: 709px; height: 36px;}
 .menu{width: 100px; height: 50px;}
 
 
@@ -44,5 +50,5 @@ footer .footer div{margin: 7px 0; display: none;}
 .footer3 ul li a:hover{opacity: 0.7;}
 
 
-.midfooter{width: 100%; height: 1000px; background-color: #000000;}
+/* .midfooter{width: 100%; height: 1000px; background-color: #000000;} */
 }
