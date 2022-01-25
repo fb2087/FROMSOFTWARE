@@ -1,6 +1,10 @@
 @charset "UTF-8";
-@media(min-width:600px) and (max-width:1199px){
+@media(max-width:1199px){
 .mainbox{display: none;}
 .ds,.blood,.elden,.seki,.dera{display: none;}
+
+.elden2{width: 100%; height: auto; margin: 0 auto; position: relative;}
+.elden2 img{width: 100%; height: 1300px;}
+.elden2 .more{width: 100%;}
 
 }
