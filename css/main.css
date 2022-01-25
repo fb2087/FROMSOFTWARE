@@ -27,7 +27,7 @@ width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animat
     
 
 .mainimg:nth-child(2) .img{width: 60vw; background: url(../img/bloodborne/bloodborne_b.jpg) 
-no-repeat center/cover; transform: skewX(20deg) translateX(-400px);transition: all 0.5s ease-in-out ;}
+no-repeat center/cover; transform: skewX(20deg) translateX(-20vw);transition: all 0.5s ease-in-out ;}
 .mainimg:nth-child(2){width: 30%; transition: all 0.5s ease-in-out ; overflow: hidden; }
 .mainimg:nth-child(2):hover{width: 40%; }
 .mainimg:nth-child(2):hover .img{width: 70vw; background: url(../img/bloodborne/bloodborne_a.jpg) 
@@ -39,7 +39,7 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-400px);transition: a
 width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animation: fadein 1s;}
 
 .mainimg:nth-child(3) .img{width: 60vw; background: url(../img/eldenring/eldenring_b.jpg) 
-no-repeat center/cover; transform: skewX(20deg) translateX(-430px);transition: all 0.5s ease-in-out ;}
+no-repeat center/cover; transform: skewX(20deg) translateX(-20vw);transition: all 0.5s ease-in-out ;}
 .mainimg:nth-child(3){width: 30%; transition: all 0.5s ease-in-out ; overflow: hidden;}
 .mainimg:nth-child(3):hover{width: 40%;}
 .mainimg:nth-child(3):hover .img{width: 70vw; background: url(../img/eldenring/eldenring_a.jpg) 
@@ -51,7 +51,7 @@ no-repeat center/cover; transform: skewX(20deg) translateX(-430px);transition: a
 width: 300px; height: 200px; transform: skew(20deg) translate(-40%,-50%); animation: fadein 1s;}
 
 .mainimg:nth-child(4) .img{width: 100vw; background: url(../img/sekiro/sekiro_b.jpg) 
-no-repeat center/cover; transform: skewX(20deg) translateX(-700px);transition: all 0.5s ease-in-out ; display: block;}
+no-repeat center/cover; transform: skewX(20deg) translateX(-37vw);transition: all 0.5s ease-in-out ; display: block;}
 .mainimg:nth-child(4){width: 30%; transition: all 0.5s ease-in-out ; overflow: hidden; }
 .mainimg:nth-child(4):hover{width: 40%;}
 .mainimg:nth-child(4):hover .img{width: 70vw; background: url(../img/sekiro/sekiro_a.jpg) 
