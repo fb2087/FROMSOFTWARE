@@ -4,6 +4,7 @@
 ul,li,ol{list-style: none;}
 a{text-decoration: none; color: black;}
 
+
 header{width: 100%; height: auto; display: flex; z-index: 100;justify-content: space-around; 
 align-items: center; margin:0 auto; position: absolute; background-color: #000000;
 flex-direction: column; opacity: 0.6; position: fixed;}
@@ -50,5 +51,20 @@ footer .footer div{margin: 7px 0; display: none;}
 .footer3 ul li a:hover{opacity: 0.7;}
 
 
-/* .midfooter{width: 100%; height: 1000px; background-color: #000000;} */
+.midfooter{width: 100%; height: 650px; background-color: #0F0F0F; margin-top: 100px;}
+.midfooter hr{color: #a6a6a6;}
+.midfooter .midfooter1{width: 100%; height: 300px;}
+.midfooter .midfooter1 ul{width: 100%; height: 100%; display: flex; justify-content: space-evenly;
+flex-direction: row; align-items: center;}
+.midfooter .midfooter1 ul li{ width: auto; height: auto; margin: 0; padding: 0;}
+.midfooter .midfooter1 ul li a{color: #a6a6a6; font-size: 3em;}
+.midfooter .midfooter2{width: 100%; height: 100px;}
+.midfooter .midfooter2 ul{width: 100%; height: 100%; display: flex; flex-direction: row; align-items: center;
+justify-content: space-evenly;}
+.midfooter .midfooter2 ul .line{width: 2px; height: 30px; background-color: #a6a6a6;}
+.midfooter .midfooter2 ul li a{font-size: 2em; color: #a6a6a6;}
+.midfooter h1{color: #a6a6a6; display: flex; justify-content: center; align-items: center; margin-top: 80px;}
+
+
+
 }
