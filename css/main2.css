@@ -24,4 +24,41 @@ justify-content: center; background-color: #0F0F0F; margin-top: 100px;}
 justify-content: center; align-items: center; color: white;}
 .midmenu hr{width: 100%;}
 
+
+
+
+
+
+.elden{width: 100%; height: 149vh; min-height: 810px; position: absolute; top: 0; left: 0; 
+overflow: hidden; z-index: 5;}
+.elden .eldsli img:nth-child(1){display: none;}
+.elden .eldsli img:nth-child(2){width: 100%; height: 100%;}
+.elden .elcon ul{width: 100%; display: flex; justify-content: start;}
+.elden .elcon ul li{margin: 0 7px 0 0;}
+.elden .elcon ul .ps5{width: 60px; height: 18px; background-color: black; 
+text-align: center; font-size: 14px;}
+.elden .elcon ul .ps4{width: 60px; height: 18px; background-color: #0c75f5; 
+text-align: center; font-size: 14px;}
+.elden .elcon ul .xb{width: 130px; height: 18px; background-color: #0d7e14; 
+text-align: center; font-size: 14px;}
+.elden .elcon ul .Xb{width: 100px; height: 18px; background-color: #00bc49; 
+text-align: center; font-size: 14px;}
+.elden .elcon ul .pc{width: 60px; height: 18px; background-color: #7c7c7c; 
+text-align: center; font-size: 14px;}
+.elden .eltxt{width:550px; height: 500px; position: absolute; z-index:5; 
+top: 25%; right: 5%; color: white; opacity: 0.9;}
+.elden .eltxt .elbtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
+.elden .eltxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+color: white;}
+.elden .eltxt .elvi{width: 288px; height: 162px;}
+.elden .eltxt .elvi:hover{opacity: 0.7;}
+.video{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute;
+top: 0; left: 0; z-index: 6;  display: none;}
+.video iframe{opacity: 1; position: absolute; top: 20%; left: 25%; width: 50%; height: 60%;}
+.elden .eltxt .elbtn:hover{opacity: 0.8;}
+.elden .eltxt .elbtn a:hover{opacity: 0.8;} 
+
+.cbtn{width: 100px; height: 100px; position: absolute; z-index: 1; cursor: pointer; right: 45%; top: 80%;}
+.cbtn:hover{opacity: 0.5;}
+
 }

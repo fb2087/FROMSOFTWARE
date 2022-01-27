@@ -101,7 +101,8 @@ color: white;}
 .blood .bbtxt .bbbtn a:hover{opacity: 0.8;} 
 
 .elden{width: 100%; height: 100vh; min-height: 810px; position: absolute; top: 0; left: 0;overflow: hidden;}
-.elden .eldsli img{width: 100%; height: 100vh; min-height: 810px;}
+.elden .eldsli img:nth-child(1){width: 100%; height: 100vh; min-height: 810px;}
+.elden .eldsli img:nth-child(2){display: none;}
 .elden .elcon ul{width: 100%; display: flex; justify-content: start;}
 .elden .elcon ul li{margin: 0 7px 0 0;}
 .elden .elcon ul .ps5{width: 60px; height: 18px; background-color: black; 
