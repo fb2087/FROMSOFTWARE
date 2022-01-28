@@ -13,7 +13,7 @@ top: 125%; margin: 0 auto; display: flex; justify-content: center;}
 .elden2 .more .more2 img:hover{opacity: 0.6;}
 
 .moregame{width: 100%; height: auto; overflow: hidden;}
-.moregame .moregame2{width: 150%; height: 300px; display: flex; flex-direction: row;
+.moregame .moregame2{width: 4728px; height: auto; display: flex; flex-direction: row;
 overflow: hidden;}
 .moregame .moregame2 div{width: 100%; height: 100%;}
 .moregame div img{width: 100%; height: 100%;}
@@ -54,15 +54,15 @@ color: white;}
 .elden .eltxt .elvi:hover{opacity: 0.7;}
 .video{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute;
 top: 0; left: 0; z-index: 6;}
-.video iframe{opacity: 1; position: absolute; top: 20%; left: 20%; width: 70%; height: 60%;
-transform: translate(-0, -0) ;}
+.video iframe{opacity: 1; position: absolute; top: 20%; left: 15%; width: 70%; height: 60%;}
 .elden .eltxt .elbtn:hover{opacity: 0.8;}
 .elden .eltxt .elbtn a:hover{opacity: 0.8;} 
 .eldenbgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0;}
 
 
-.dera{width: 100%; height: 100vh; min-height: 810px; position: absolute; top: 0; left: 0; z-index: 5; overflow: hidden;}
-.dera .derasli img{width: 100%; height: 100vh; min-height: 810px; position: absolute; top: 0; left: 0;}
+.dera{width: 100%; height: 100%; min-height: 810px; position: fixed; top: 0; left: 0; z-index: 5; overflow: hidden;}
+.dera .derasli img{width: 100%; height: 100%; min-height: 810px; transform: scale(3) translateY(-30%) translateX(-25%);
+position: absolute; top: 0; left: 0;}
 .dera .decon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
 .dera .detxt{width:550px; height: 500px; position: absolute; z-index:5; 
@@ -79,7 +79,7 @@ color: white;}
 
 
 
-.cbtn{width: 100px; height: 100px; position: absolute; z-index: 9; 
+.cbtn{width: 100px; height: 100px; position: absolute; z-index: 6; 
 cursor: pointer; right: 40%; top: 85%; transform: translate(-85%, -40%);}
 .cbtn:hover{opacity: 0.5;}
 
