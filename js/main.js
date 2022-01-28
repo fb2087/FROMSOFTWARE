@@ -98,19 +98,19 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
         $('.seki').hide();
         $('.dera').hide();
     
-        $('.mainimg:nth-of-type(1)').click(function(){
+        $('.baner3').click(function(){
             $('.ds').fadeIn();
         });
-        $('.mainimg:nth-of-type(2)').click(function(){
+        $('.baner1').click(function(){
             $('.blood').fadeIn();
         });
         $('.more2').click(function(){
             $('.elden').fadeIn();
         });
-        $('.mainimg:nth-of-type(4)').click(function(){
+        $('.baner4').click(function(){
             $('.seki').fadeIn();
         });
-        $('.mainimg:nth-of-type(5)').click(function(){
+        $('.baner2').click(function(){
             $('.dera').fadeIn();
         });
         $('.cbtn').click(function(){
@@ -121,7 +121,24 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
             $('.dera').fadeOut();
         });
 
+        $('.video').hide();
+        $('.elvi').click(function () {
+                $('.video').fadeIn();
+                $('.video iframe').attr("src","https://www.youtube.com/embed/l6pCyV7PnqI?autoplay=1&amp;mute=1");
+            });
+            $('.video').click(function () {
+                $('.video').fadeOut(); 
+            });
+   
 
+        $('.video1').hide();
+        $('.sevi').click(function () {
+                $('.video1').fadeIn();
+                $('.video1 iframe').attr("src","https://www.youtube.com/embed/QFhaL4s10Iw?autoplay=1&amp;mute=1");
+            });
+            $('.video1').click(function () {
+                $('.video1').fadeOut(); 
+            });
 }
 
 
