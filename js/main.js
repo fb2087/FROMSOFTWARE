@@ -54,7 +54,7 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
 
 
             //다크소울 이미지슬라이드
-            var i = 0;
+        var i = 0;
         function slide() {
             i++;
             if (i > $('.dssli div:last').index()) {
@@ -162,8 +162,30 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
                     $('.moregame2 div:first').appendTo('.moregame2');
                     $('.moregame2').css({ marginLeft: 0 });
                 });
+                
             }
+            setInterval(slide, 3000);
 
+            var i = 0;
+        function slide() {
+            i++;
+            if (i > $('.dssli div:last').index()) {
+                i = 0;
+            }
+            $('.dssli div').eq(i).fadeIn(1000);
+            $('.dssli div').eq(i-1).fadeOut(500);
+        }
+        setInterval(slide, 4000);
+
+ 
+        function fade() {
+            $('.derasli img:nth-of-type(2)').fadeIn(3000, function () {
+                $(this).fadeOut(3000);
+            });
+        }
+
+        setInterval(fade, 3000);
+            
 
 
 
