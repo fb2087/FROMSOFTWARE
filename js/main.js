@@ -104,7 +104,7 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
         $('.baner1').click(function(){
             $('.blood').fadeIn();
         });
-        $('.more2').click(function(){
+        $('.more').click(function(){
             $('.elden').fadeIn();
         });
         $('.baner4').click(function(){
@@ -140,17 +140,19 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
                 $('.video1').fadeOut(); 
             });
 
+            var w = window.innerWidth;
+
 
             function prev(){
                 $('.moregame .moregame2 div:last').prependTo('.moregame2');
-                $('.moregame2').css({marginLeft:-1182}); 
+                $('.moregame2').css({marginLeft:-w}); 
                 $('.moregame2').stop().animate({marginLeft:0},800);
                 }
             
             
             
             function next() {
-                $('.moregame2').stop().animate({ marginLeft: -1182 }, function () {
+                $('.moregame2').stop().animate({ marginLeft: -w }, function () {
                     $('.moregame2 div:first').appendTo('.moregame2');
                     $('.moregame2').css({ marginLeft: 0 });
                 });
@@ -158,7 +160,7 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
             
             
             function slide3() {
-                $('.moregame2').stop().animate({ marginLeft: -1182 }, function () {
+                $('.moregame2').stop().animate({ marginLeft: -w }, function () {
                     $('.moregame2 div:first').appendTo('.moregame2');
                     $('.moregame2').css({ marginLeft: 0 });
                 });

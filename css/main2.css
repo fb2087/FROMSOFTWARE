@@ -4,19 +4,18 @@
 .ds,.blood,.elden,.seki,.dera{display: none;}
 body{}
 
-.elden2{width: 100%; height: auto; margin: 0 auto;}
-.elden2 .midel{width: 100%; height: 1300px;  position: relative;}
-.elden2 .more{width: 100%; height: 105px; position: absolute; z-index: 1;
-top: 125%; margin: 0 auto; display: flex; justify-content: center;}
-.elden2 .more .more2{width: 585px; height: auto;}
-.elden2 .more .more2 img{cursor: pointer; width: 100%; height: auto;}
-.elden2 .more .more2 img:hover{opacity: 0.6;}
+.elden2{width: 100%; height: auto; margin: 0 auto; position: relative;}
+.elden2 .midel{width: 100vw; height: auto;  position: relative;}
+.elden2 .more{width: 100%; height: 70px; position: absolute; z-index: 1;
+bottom: 5%;  margin: 0 auto; display: flex; justify-content: center;}
+.elden2 .more img{cursor: pointer; width: auto; height: auto;}
+.elden2 .more img:hover{opacity: 0.6;}
 
 .moregame{width: 100%; height: auto; overflow: hidden;}
-.moregame .moregame2{width: 4728px; height: auto; display: flex; flex-direction: row;
+.moregame .moregame2{width: 400vw; height: auto; display: flex; flex-direction: row;
 overflow: hidden;}
 .moregame .moregame2 div{width: 100%; height: 100%;}
-.moregame div img{width: 100%; height: 100%;}
+.moregame .moregame2 div img{width: 100%; height: 70%;}
 
 .midmenu{width: 100%; height: 1000px; display: flex; flex-direction: column; align-items: center;
 justify-content: center; background-color: #0F0F0F; margin-top: 100px;}
@@ -25,14 +24,10 @@ justify-content: center; align-items: center; color: white;}
 .midmenu hr{width: 100%;}
 
 
-
-
-
-
-.elden{width: 100%; height: 100%; min-height: 810px; position: fixed; top: 0; left: 0; 
+.elden{width: 100vw; height: auto; min-height: 810px; position: fixed; top: 0; left: 0; 
 overflow: hidden; z-index: 4; }
 .elden .eldsli img:nth-child(1){display: none;}
-.elden .eldsli img:nth-child(2){width: 100%; height: 100%; transform: scale(2) translateY(-20%);}
+.elden .eldsli img:nth-child(2){width: 100vw; height: 100vh; transform: scale(2) translateY(-20%);}
 .elden .elcon ul{width: 100%; display: flex; justify-content: start;}
 .elden .elcon ul li{margin: 0 7px 0 0;}
 .elden .elcon ul .ps5{width: 60px; height: 18px; background-color: black; 
@@ -45,14 +40,14 @@ text-align: center; font-size: 14px;}
 text-align: center; font-size: 14px;}
 .elden .elcon ul .pc{width: 60px; height: 18px; background-color: #7c7c7c; 
 text-align: center; font-size: 14px;}
-.elden .eltxt{width:100%; height: 100%; position: absolute; z-index:5; 
-top: 25%; right: -20%; color: white; opacity: 0.9; }
+.elden .eltxt{width:100vw; height: auto; position: absolute; z-index:5; 
+top: 15%; left: 5%;; color: white; opacity: 0.9; }
 .elden .eltxt .elbtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .elden .eltxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
 color: white;}
 .elden .eltxt .elvi{width: 288px; height: 162px;}
 .elden .eltxt .elvi:hover{opacity: 0.7;}
-.video{width: 100%; height: 100%; background-color: rgba(0,0,0, 1); position: absolute;
+.video{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.6); position: fixed;
 top: 0; left: 0; z-index: 10;}
 .video iframe{opacity: 1; position: absolute; z-index: 6; top: 20%; left: 0; width: 100%; height: 60%;}
 .elden .eltxt .elbtn:hover{opacity: 0.8;}
@@ -60,13 +55,13 @@ top: 0; left: 0; z-index: 10;}
 .eldenbgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0;}
 
 
-.dera{width: 100%; height: 100%; min-height: 810px; position: fixed; top: 0; left: 0; z-index: 5; overflow: hidden;}
-.dera .derasli img{width: 100%; height: 100%; min-height: 810px; transform: scale(3) translateY(-30%) translateX(-25%);
+.dera{width: 100vw; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0; z-index: 4; overflow: hidden;}
+.dera .derasli img{width: 100%; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);
 position: absolute; top: 0; left: 0;}
 .dera .decon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
-.dera .detxt{width:550px; height: 500px; position: absolute; z-index:5; 
-top: 25%; left: 10%; color: white; opacity: 0.9;}
+.dera .detxt{width:50vw; height: auto; position: absolute; z-index:5; 
+top: 25%; left: 5%; color: white; opacity: 0.9;}
 .dera .detxt .debtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .dera .detxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
 color: white;}
@@ -77,8 +72,8 @@ color: white;}
 
 
 
-.seki{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;overflow: hidden; z-index: 5;}
-.seki .sekisli img{width: 100%; height: 100vh; min-height: 810px; transform: scale(3) translateY(-30%) translateX(-25%);}
+.seki{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;overflow: hidden; z-index: 4;}
+.seki .sekisli img{width: 100vw; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);}
 .seki .secon ul{width: 100%; display: flex; justify-content: start;}
 .seki .secon ul li{margin: 0 7px 0 0;}
 .seki .secon ul .st{width: 70px; height: 18px; background-color: #f27765; 
@@ -89,15 +84,16 @@ text-align: center; font-size: 14px;}
 text-align: center; font-size: 14px;}
 .seki .secon ul .pc{width: 60px; height: 18px; background-color: #7c7c7c; 
 text-align: center; font-size: 14px;}
-.seki .setxt{width:550px; height: 500px; position: absolute; z-index:5; 
-top: 25%; left: 10%; color: white; opacity: 0.9;}
+.seki .setxt{width:100vw; height: auto; position: absolute; z-index:5; 
+top: 15%; left: 5%; color: white; opacity: 0.9;}
 .seki .setxt .sebtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .seki .setxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
 color: white;}
+.setxt h1{font-size: 30px;}
 .seki .setxt .sevi{width: 288px; height: 162px;}
 .seki .setxt .sevi img{width: 100%; height: 100%;}
 .seki .setxt .sevi:hover{opacity: 0.7;} 
-.video1{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute;
+.video1{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.6); position: absolute;
 top: 0; left: 0; z-index: 6; }
 .video1 iframe{opacity: 1; position: absolute; top: 25%; left: 0; width: 100%; height: 60%;}
 .seki .setxt .sebtn:hover{opacity: 0.8;}
@@ -105,12 +101,12 @@ top: 0; left: 0; z-index: 6; }
 .sekibgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0;}
 
 
-.ds{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;
-overflow: hidden; background-color: #000; z-index: 5;}
-.ds .dssli img{width: 100%; height: 100vh; min-height: 810px; opacity: 0.9; position: relative;
-    transform: scale(2.5) translateY(-30%) translateX(25%);}
+.ds{width: 100vw; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;
+overflow: hidden; background-color: #000; z-index: 4;}
+.ds .dssli img{width: 100vw; height: 100vh; min-height: 810px; opacity: 0.9; position: relative;
+    transform: scale(2.5) translateY(0) translateX(20%);}
 .ds .dssli div:nth-of-type(2) img,.dssli div:nth-of-type(3) img{display: none;}
-.ds .dstxt{width:500px; height: 500px; position: absolute; z-index:5; 
+.ds .dstxt{width:50vw; height: auto; position: absolute; z-index:5; 
 top: 25%; left: 15%; color: white; opacity: 0.9;}
 .ds .dstxt .dsbtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .ds .dstxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
@@ -120,12 +116,12 @@ color: white;}
 .dsbgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0; display: none;}
 
 
-.blood{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;overflow: hidden;
-z-index: 5;}
-.blood .bldsli img{width: 100%; height: 100vh; min-height: 810px;transform: scale(3) translateY(-30%) translateX(20%);}
+.blood{width: 100vw; height: auto; position: fixed; top: 0; left: 0;overflow: hidden;
+z-index: 4;}
+.blood .bldsli img{width: 100vw; height: 100vh; transform: scale(3) translateY(-30%) translateX(20%);}
 .blood .bbcon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
-.blood .bbtxt{width:550px; height: 500px; position: absolute; z-index:5; 
+.blood .bbtxt{width:50vw; height: 500px; position: absolute; z-index:5; 
 top: 25%; left: 10%; color: white; opacity: 0.9;}
 .blood .bbtxt .bbbtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .blood .bbtxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
@@ -135,8 +131,9 @@ color: white;}
 .bloodbgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0;} 
 
 
-.cbtn{width: 100px; height: 100px; position: absolute; z-index: 6; 
-cursor: pointer; right: 40%; top: 85%; transform: translate(-85%, -40%);}
+.cbtn{width: 100%; height: 100px; position: absolute; z-index: 6; 
+cursor: pointer; top: 85%; display: flex; justify-content: center;}
+.cbtn img{width: 100px; height: auto;}
 .cbtn:hover{opacity: 0.5;}
 
 }
