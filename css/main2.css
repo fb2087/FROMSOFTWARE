@@ -72,8 +72,9 @@ color: white;}
 
 
 
-.seki{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;overflow: hidden; z-index: 4;}
-.seki .sekisli img{width: 100%; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);}
+.seki{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;overflow: hidden; z-index: 4;
+background: url(../img/sekiro/sekiro_c.jpg) center;}
+.seki .sekisli img{display: none; width: 100%; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);}
 .seki .secon ul{width: 100%; display: flex; justify-content: start;}
 .seki .secon ul li{margin: 0 7px 0 0;}
 .seki .secon ul .st{width: 70px; height: 18px; background-color: #f27765; 
@@ -107,7 +108,7 @@ overflow: hidden; background-color: #000; z-index: 4; background: url(../img/dar
     transform: scale(2.5) translateY(0) translateX(20%); display: none;}
 .ds .dssli div:nth-of-type(2) img,.dssli div:nth-of-type(3) img{display: none;}
 .ds .dstxt{width:50vw; height: auto; position: absolute; z-index:5; 
-top: 25%; left: 15%; color: white; opacity: 0.9;}
+top: 15%; left: 15%; color: white; opacity: 0.9;}
 .ds .dstxt .dsbtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .ds .dstxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
 color: white;}
@@ -132,7 +133,7 @@ color: white;}
 
 
 .cbtn{width: 100%; height: 100px; position: absolute; z-index: 6; 
-cursor: pointer; top: 85%; display: flex; justify-content: center;}
+cursor: pointer; bottom: 10%; display: flex; justify-content: center;}
 .cbtn img{width: 100px; height: auto;}
 .cbtn:hover{opacity: 0.5;}
 
