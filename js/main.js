@@ -157,34 +157,16 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
             }
             
             
-            function slide() {
+            function slide3() {
                 $('.moregame2').stop().animate({ marginLeft: -1182 }, function () {
                     $('.moregame2 div:first').appendTo('.moregame2');
                     $('.moregame2').css({ marginLeft: 0 });
                 });
                 
             }
-            setInterval(slide, 3000);
+            setInterval(slide3, 3000);
 
-            var i = 0;
-        function slide() {
-            i++;
-            if (i > $('.dssli div:last').index()) {
-                i = 0;
-            }
-            $('.dssli div').eq(i).fadeIn(1000);
-            $('.dssli div').eq(i-1).fadeOut(500);
-        }
-        setInterval(slide, 4000);
-
- 
-        function fade() {
-            $('.derasli img:nth-of-type(2)').fadeIn(3000, function () {
-                $(this).fadeOut(3000);
-            });
-        }
-
-        setInterval(fade, 3000);
+            
             
 
 
