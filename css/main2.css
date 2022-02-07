@@ -134,7 +134,7 @@ color: white;}
 
 
 .cbtn{width: 100%; height: 70px; position: absolute; z-index: 6; 
-cursor: pointer; bottom: 20%; display: flex; justify-content: center;}
+cursor: pointer; bottom: 10%; display: flex; justify-content: center;}
 .cbtn img{width: 70px; height: auto;}
 .cbtn:hover{opacity: 0.5;}
 
