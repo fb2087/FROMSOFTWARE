@@ -55,8 +55,9 @@ top: 0; left: 0; z-index: 10;}
 .eldenbgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0;}
 
 
-.dera{width: 100vw; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0; z-index: 4; overflow: hidden;}
-.dera .derasli img{width: 100%; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);
+.dera{width: 100vw; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0; z-index: 4; overflow: hidden;
+background: url(../img/deracine/deracine_on.jpg) center;}
+.dera .derasli img{width: 100%; height: 100vh; display: none; transform: scale(3) translateY(-30%) translateX(-25%);
 position: absolute; top: 0; left: 0;}
 .dera .decon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
@@ -123,7 +124,7 @@ z-index: 4; background: url(../img/bloodborne/bloodborne_a.jpg) center;}
 .blood .bbcon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
 .blood .bbtxt{width:50vw; height: 500px; position: absolute; z-index:5; 
-top: 25%; left: 10%; color: white; opacity: 0.9;}
+top: 15%; left: 10%; color: white; opacity: 0.9;}
 .blood .bbtxt .bbbtn{width: 200px; height: 50px; border: 3px solid white; color: white;}
 .blood .bbtxt a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
 color: white;}
@@ -133,7 +134,7 @@ color: white;}
 
 
 .cbtn{width: 100%; height: 100px; position: absolute; z-index: 6; 
-cursor: pointer; bottom: 10%; display: flex; justify-content: center;}
+cursor: pointer; bottom: 17%; display: flex; justify-content: center;}
 .cbtn img{width: 100px; height: auto;}
 .cbtn:hover{opacity: 0.5;}
 
