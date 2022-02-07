@@ -92,7 +92,7 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
    
 
 
-    $('.ds').hide();
+    
         $('.blood').hide();
         $('.elden').hide();
         $('.seki').hide();

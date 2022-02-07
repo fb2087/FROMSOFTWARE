@@ -2,20 +2,20 @@
 @media(max-width:1199px){
 .mainbox{display: none;}
 .ds,.blood,.elden,.seki,.dera{display: none;}
-body{}
+body{background-color: #0F0F0F;}
 
 .elden2{width: 100%; height: auto; margin: 0 auto; position: relative;}
-.elden2 .midel{width: 100vw; height: auto;  position: relative;}
+.elden2 .midel{width: 100%; height: auto;  position: relative;}
 .elden2 .more{width: 100%; height: 70px; position: absolute; z-index: 1;
 bottom: 5%;  margin: 0 auto; display: flex; justify-content: center;}
-.elden2 .more img{cursor: pointer; width: auto; height: auto;}
+.elden2 .more img{width: 100%; height: auto; cursor: pointer; width: auto; height: auto;}
 .elden2 .more img:hover{opacity: 0.6;}
 
 .moregame{width: 100%; height: auto; overflow: hidden;}
 .moregame .moregame2{width: 400vw; height: auto; display: flex; flex-direction: row;
 overflow: hidden;}
-.moregame .moregame2 div{width: 100%; height: 100%;}
-.moregame .moregame2 div img{width: 100%; height: 70%;}
+.moregame .moregame2 div{width: 100%; height: 100%; cursor: pointer;}
+.moregame .moregame2 div img{width: 100%; height: 70%; cu}
 
 .midmenu{width: 100%; height: 1000px; display: flex; flex-direction: column; align-items: center;
 justify-content: center; background-color: #0F0F0F; margin-top: 100px;}
@@ -73,7 +73,7 @@ color: white;}
 
 
 .seki{width: 100%; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;overflow: hidden; z-index: 4;}
-.seki .sekisli img{width: 100vw; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);}
+.seki .sekisli img{width: 100%; height: 100vh; transform: scale(3) translateY(-30%) translateX(-25%);}
 .seki .secon ul{width: 100%; display: flex; justify-content: start;}
 .seki .secon ul li{margin: 0 7px 0 0;}
 .seki .secon ul .st{width: 70px; height: 18px; background-color: #f27765; 
@@ -102,9 +102,9 @@ top: 0; left: 0; z-index: 6; }
 
 
 .ds{width: 100vw; height: 100vh; min-height: 810px; position: fixed; top: 0; left: 0;
-overflow: hidden; background-color: #000; z-index: 4;}
-.ds .dssli img{width: 100vw; height: 100vh; min-height: 810px; opacity: 0.9; position: relative;
-    transform: scale(2.5) translateY(0) translateX(20%);}
+overflow: hidden; background-color: #000; z-index: 4; background: url(../img/darksoul/darksoulsli_a.jpg) center;}
+.ds .dssli img{width: 100%; height: auto;opacity: 0.9; position: relative;
+    transform: scale(2.5) translateY(0) translateX(20%); display: none;}
 .ds .dssli div:nth-of-type(2) img,.dssli div:nth-of-type(3) img{display: none;}
 .ds .dstxt{width:50vw; height: auto; position: absolute; z-index:5; 
 top: 25%; left: 15%; color: white; opacity: 0.9;}
@@ -116,9 +116,9 @@ color: white;}
 .dsbgc{width: 100%; height: 100%; background-color: rgba(0,0,0, 0.7); position: absolute; top: 0; left: 0; display: none;}
 
 
-.blood{width: 100vw; height: auto; position: fixed; top: 0; left: 0;overflow: hidden;
-z-index: 4;}
-.blood .bldsli img{width: 100vw; height: 100vh; transform: scale(3) translateY(-30%) translateX(20%);}
+.blood{width: 100vw; height: 100vh; position: fixed; min-height: 810px; top: 0; left: 0;overflow: hidden;
+z-index: 4; background: url(../img/bloodborne/bloodborne_a.jpg) center;}
+.blood .bldsli img{width: 100%; height: 100vh; transform: scale(3) translateY(-30%) translateX(20%); display: none;}
 .blood .bbcon ul li{width: 60px; height: 18px; background-color: #0c75f5; 
 text-align: center; font-size: 14px;}
 .blood .bbtxt{width:50vw; height: 500px; position: absolute; z-index:5; 
