@@ -22,10 +22,12 @@ top: 85%; right: 3%; display: flex; align-items: center;}
 footer .footer{width: 100%; height: 100%; }
 footer .footer div{margin: 7px 0;}
 .footer1{width: 100%; height: auto; margin-right: 20px;}
-.footer1 ul{width: 100%; height: 100%; display: flex; flex-direction: row; justify-content: end;}
+.footer1 ul{width: 100%; height: 100%; display: flex; flex-direction: row; justify-content: end; align-items: center;}
 .footer1 ul li{width: 50px; height: 100%; color: white; font-size: 25px; }
 .footer1 ul li a{color: white; opacity: 0.6;}
 .footer1 ul li a:hover{opacity: 0.7;}
+
+
 
 .footer2{width: 100%; height: auto;}
 .footer2 ul{ width: 100%; height: auto; display: flex; flex-direction: row; justify-content: end;} 
@@ -34,14 +36,15 @@ footer .footer div{margin: 7px 0;}
 .footer2 ul li a:hover{opacity: 0.7;}
 
 .footer3{width: 100%; height: auto;}
-.footer3 ul{width: 100%; height: 14px; display: flex;flex-direction: row; justify-content: end; }
-.footer3 ul .footer3_1{width: 90px; font-size: 14px; display: flex; justify-content: center; margin: 0 20px; 
+.footer3 ul{width: 100%; height: 14px; display: flex; flex-direction: row; justify-content: end; align-items: center; }
+.line2{height: 12px; width: 1px; background-color: white; opacity: 0.6; }
+.footer3 ul li{margin: 0 5px;}
+.footer3 ul .footer3_1{width: auto; font-size: 14px; display: flex; justify-content: center; margin: 0 20px; 
  font-weight: bold; text-align: center;}
-.footer3 ul .footer3_2{font-size: 14px; font-weight: bold; width: 130px;display:flex; justify-content: center;} 
 .footer3 ul li a{color: white; opacity: 0.6;} 
 .footer3 ul li a:hover{opacity: 0.7;}
 
-.line2{height: 14px; width: 1px; }
+
 
 
 
